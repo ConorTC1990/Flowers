@@ -4,17 +4,74 @@
 
 .mission {
     text-transform: uppercase;
-    color: green;
+    color: green; 
     
     
     
+} /* up for deletion*/
+
+
+    @media (min-width: 1200px)
+.container {
+     max-width: 100%;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 100%;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 100%;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 100%;
+} /* up for deletion*/
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
 }
 
-.container {
-    min-width:  100%;
-    padding-left: 0px;
+.wreathscontainer {
     padding-right: 0px;
-    pad
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+.containerweddings {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+}
+/* up for deletion*/
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+    
 }
     .title{
         text-align: center;
@@ -33,7 +90,7 @@ h3 {
     resize: both;
 }
 
-
+/* Buttons*/
 
 .button {
     background-color: #7CFC00;
@@ -113,7 +170,7 @@ background-color: transparent;
   opacity: 0.8;
 }
 
-/* Callout header */
+/* up for deletion*/
 .callout-header {
   padding: 25px 15px;
   background: #555;
@@ -157,7 +214,11 @@ background-color: transparent;
        border-collapse: collapse;
        border-color: white;
        }
+  
+ /* -------------- Navbar --------------- */ 
        
+       
+       /* to keep Navbar in place*/
        .sticky {
  
   position:static;
@@ -217,12 +278,14 @@ border-color: #FF00FF;
 
 title sticky {top: 25px}
 
-button sticky{padding-top: 25px}
+.buttonsticky{padding-right: 25px}
  
  
  .footerpin{position: bottom 35px}
 
  container-fluid sticky{padding-bottom: 1000px;} 
+
+/* Footer Styles */
   
  .social-links li a i {
     width: 32px;
@@ -260,12 +323,7 @@ footer {
 } 
 
 .container-fluidf {bottom: 10px;}
-.footerbackground {
-    
-    
-    
-    
-}
+
 
 /* Wreaths */
 
@@ -277,8 +335,10 @@ footer {
     
     min-width: 100%;
     min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     padding-top: 35px;
-     padding-bottom: 35px;
+     padding-bottom: 60px;
   padding-right: 0px;
   padding-left: 0px;
   z-index: 0;
@@ -318,6 +378,10 @@ footer {
   padding-left: 0px;
   z-index: 0;
 }
+
+ /* ----------- Contact  form------------------*/
+ 
+ 
 .form-style-1 {
 	margin:10px auto;
 	max-width: 400px;
@@ -403,8 +467,12 @@ select{
 	color:red;
 }
 
+/* ----------- Contact  form------------------*/
+
+/* ----------- Weddings Background------------------*/
+
 .WeddingsBackground{
-    background-image: url("../images/wedding flowers.jpg");
+    background-image: url("../images/Weddings.PNG");
     
     position: fixed;
     resize: both;
@@ -423,6 +491,11 @@ select{
     min-width: 100%;
     min-height: 100%;
 }
+
+/* ----------- Weddings Background------------------*/
+
+/* ----------- Menu Bar------------------*/
+
 
 .menu-content {
     font-family: 'Oswald', sans-serif; 
@@ -473,6 +546,10 @@ input:checked ~ label {
 input:checked ~ .menu-content {
     max-height: 100%;
 }
+
+/* ----------- Menu Bar------------------*/
+
+/* ----------- Consider for Deletion------------------*/
 
 
 /* test */
@@ -592,7 +669,7 @@ input:checked ~ .menu-content {
 
 
 
-
+/* ----------- Consider for Deletion------------------*/
 
 
 
@@ -862,13 +939,152 @@ input:checked ~ .menu-content {
   left: 8px;
 }
 
+/* ----------- Consider for Deletion------------------*/
+
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.videoclass{min-height: 100%;
+min-width: 100%;
+padding-bottom: 60px;}
+
+@media (max-width: 40em) {
+.videoclass {
+display: none;
+}
+}
+
+@media (max-width: 40em) {
+.WreathsBackground {
+display: none;
+}
+}
+@media (min-width: 40em) {
+.videoclass2paddingweddings
+{display: none;
+}
+}
+
+@media (min-width: 40em) {
+.videoclass2 {
+display: none;
+}
+}
+
+@media (min-width: 40em) {
+.videoclass2wreaths {
+display: none;
+}
+}
+
+@media (max-width: 40em) {
+.callout{
+display: none;
+
+}
+}
+
+@media (max-width: 70em) {
+.callout2 {
+display: none;
+
+}
+}
+@media (max-width: 40em) {
+.WeddingsBackground
+{display: none;
+
+}
+}
+
+@media (max-width: 40em) {
+.callout3 {
+display: none;
+
+}
+}
+
+
+.videoclass2 {
+background-image:url("../images/flowers.jpg");
+width: 100%;
+height: 100%;
+min-height: 625px;
+opacity: .8;
+text-size: 30px;
+text-transform: uppercase;
+color: white;
+list-style: circle;
+line-height:!important; 25px;
+text-align: center;
+
+
+}
+
+.videoclass2weddings {
+background-image:url("../images/wedding flowers.jpg");
+width: 100%;
+height: 100%;
+min-height: 625px;
+opacity: .8;
+text-size: 30px;
+text-transform: uppercase;
+color: white;
+list-style: circle;
+line-height:!important; 25px;
+text-align: center;
+padding-top: 35px;
+
+}
+
+.videoclass2weddings{padding-top: 60px}
+
+@media (min-width: 40em) {
+.videoclass2 {
+display: none;
+
+}
+}
+
+.videoclass2wreaths{
+background-image:url("../images/Wreaths.1.JPG");
+width: 100%;
+height: 100%;
+min-height: 650px;
+opacity: 1;
+text-size: 30px;
+text-transform: uppercase;
+color: white;
+list-style: circle;
+line-height:!important; 25px;
+text-align: center;
+padding-top: 35px;
+
+}
 
 
 
-navbar navbar-light light-blue lighten-4{ z-index: 1}
+.videoclass2weddings{padding-top: 0px}
 
-       media 
-                
+@media (min-width: 40em) {
+.videoclass2weddings{
+display: none;
 
-    
-    
+}
+}
+
+
+@media (max-width: 40em) {
+h4 {
+display: none;
+
+}
+}
+
+
+  
+             
