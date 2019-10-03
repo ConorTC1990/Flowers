@@ -60,7 +60,8 @@ I would put a lot more annotations on my html pages especially when building as 
 
 I was having issues getting background images to work in CSS, I ended up creating different classes per page.
 In future I will look at designing each better and planning my design to be consistent throughout. I created a lot of very similar classes on all 4 pages which was not my initial intention.
-                                
+ 
+I will look at cleaning up my code more often as I found that going through the validator at the end stages of the project actually helped with soving some of my issues which in hindsight I had just been compounding.                                
                                 Future enhancements
                                 
  I would add an online store for click and collect.
