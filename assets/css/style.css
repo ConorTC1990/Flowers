@@ -26,29 +26,6 @@
 
 /* up for deletion*/
 
-.container {
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-
-}
-.wreathscontainer {
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-}
-.containerweddings {
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: auto;
-	margin-left: auto;
-}
 
 }
 
@@ -178,13 +155,13 @@ a:hover {
 	top: 0;
 }
 body {
-	background-color: #FF00FF;
+	background-color: white;
 	padding-left: 0px;
 	padding-right: 0px;
 }
 .list-inline-item {
 	text-align: right;
-	border-color: #FF00FF;
+	border-color: black;
 }
 .address {
 	text-align: right;
@@ -198,26 +175,7 @@ head {
 /* -------------- Navbar --------------- */
 
 /* to keep Navbar in place*/
-.sticky {
-	position:static;
-	top: 0;
-}
 
-/* Style the navbar */
-#navbar {
-	overflow: hidden;
-	background-color: #333;
-}
-
-/* Navbar links */
-#navbar a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px;
-	text-decoration: none;
-}
 
 /* Page content */
 .content {
@@ -243,8 +201,8 @@ head {
 	padding-top: 60px;
 }
 .general-sub {
-	background-color: #FF00FF;
-	border-color: #FF00FF;
+	background-color: black;
+	border-color: black;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-top: 0px;
@@ -275,7 +233,7 @@ container-fluid sticky {
 	line-height: 7px;
 	text-align: center;
 	color: #fafafa;
-	background: magenta;
+	background: black;
 	transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
 	-webkit-transition: all 0.35s ease-in-out;
@@ -286,7 +244,7 @@ container-fluid sticky {
 }
 footer {
 	text-align: center;
-	background-color: #FF00FF;
+	background-color: black;
 	color: white;
 	text-shadow: none;
 	text-transform: uppercase;
@@ -443,11 +401,11 @@ select {
 	padding-bottom: 35px;
 	padding-right: 0px;
 	padding-left: 0px;
-	z-index: 0;
+	z-index: -1;
 	max-width : 100%;
-	max-height: 100%;
+	max-height: 50%;
 	min-width: 100%;
-	min-height: 100%;
+	min-height: 50%%;
 }
 
 /* ----------- Weddings Background------------------*/
@@ -975,15 +933,17 @@ input:checked~.menu-content {
 	margin-left: auto;
 }
 .wreathfooter {
-	text-align: center;
-	background-color: #FF00FF;
-	color: gold;
-	text-shadow: none;
-	text-transform: uppercase;
-	position: fixed;
-	height: 60px;
-	max-height: 10%;
-	bottom: 0px;
+    background: fixed;
+    text-align: center;
+    background-color: black;
+    color: gold;
+    text-shadow: none;
+    text-transform: uppercase;
+    position: absolute;
+    height: 40px;
+    max-height: 10%;
+    bottom: 0px;
+    
 }
 .general-sub {
 	background-color: black;
@@ -1003,4 +963,14 @@ input:checked~.menu-content {
 .list-inline-item {
 	text-align: right;
 	border-color: black;
+}
+
+
+body{ 
+  display:flex; 
+  flex-direction:column; 
+}
+
+footer{
+  margin-top:auto; 
 }
