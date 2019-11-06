@@ -1,0 +1,241 @@
+body {
+	background-color: azure;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+/*    used in index.html               */          
+#myVideo {
+	position: center;
+	width: 100%;
+	min-height: 60%;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+
+head {
+	z-index: 1;
+	border-collapse: collapse;
+	border-color: white;
+}
+
+
+/* ----------- Menu Bar------------------*/
+.menu-content {
+	font-family: 'Oswald',
+	sans-serif;
+	padding: 0 0 0 50px;
+}
+.collapsible-menu {
+	background-color: rgb(255,
+	255,
+	255);
+	padding: 0px 30px;
+	border-bottom: 3px solid #CDE700;
+	box-shadow: 1px 2px 3px rgba(0,
+	0,
+	0,
+	0.2);
+	opacity: 1;
+}
+.collapsible-menu ul {
+	list-style-type: none;
+	padding: 0;
+}
+.collapsible-menu a {
+	display:block;
+	padding: 10px;
+	text-decoration: none;
+}
+.collapsible-menu label {
+	font-family: 'Sedgwick Ave Display',
+	cursive;
+	font-size: 40px;
+	display: block;
+	cursor: pointer;
+	background: url(../images/menu.png) no-repeat left center;
+	padding: 10px 0 10px 50px;
+}
+input#menu {
+	display: none;
+}
+input:checked+label {
+	background-image: url(../images/close.png);
+}
+.menu-content {
+	max-height: 0;
+	overflow: hidden;
+	font-family: 'Oswald',
+	sans-serif;
+	padding: 0 0 0 50px;
+}
+
+/* Toggle Effect */
+input:checked~label {
+	background-image: url(../images/close.png);
+}
+input:checked~.menu-content {
+	max-height: 100%;
+}
+
+/* ----------- Menu Bar------------------*/
+
+
+
+
+/********** Footer Styles *************/
+.social-links li a i {
+	width: 32px;
+	height: 32px;
+	padding: 12px 0;
+	border-radius: 50%;
+	font-size: 13px;
+	line-height: 7px;
+	text-align: center;
+	color: white;
+	background: black;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+}
+.social-links li a i:hover {
+	background: #7CFC00;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-shadow: none;
+    text-transform: uppercase;
+    position: fixed;
+    height: 60px;
+    max-height: 10%;
+    bottom: 0px;
+}
+
+/***** keeping footer social links bacground black on hover********/
+footer a {background-color: black}
+
+a:hover {background-color: white;
+color: orange;}
+
+/* ----------- Styling for footer----*/
+.container-fluid {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.wreathfooter {
+    background: fixed;
+    text-align: center;
+    background-color: black;
+    color: gold;
+    text-shadow: none;
+    text-transform: uppercase;
+    position: relative;
+    height: 80px;
+    max-height: 20%;
+    bottom: 0px;
+}
+.general-sub {
+	background-color: black;
+	border-color: black;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+.col-sm-4 {
+	text-align: center;
+	/* border-color: #FF00FF; */
+	background-color: black;
+}
+.list-inline-item {
+	color: black;
+}
+.list-inline-item {
+	text-align: right;
+	border-color: black;
+}
+
+/********** Media Queries for responsive design *************/
+@media (max-width: 40em) {
+	.videoclass {
+		display: none;
+	}
+}
+@media (max-width: 40em) {
+	.WreathsBackground {
+		display: none;
+	}
+}
+@media (min-width: 40em) {
+	.videoclass2paddingweddings {
+		display: none;
+	}
+}
+@media (min-width: 40em) {
+	.videoclass2 {
+		display: none;
+	}
+}
+@media (min-width: 40em) {
+	.videoclass2wreaths {
+		display: none;
+	}
+}
+@media (max-width: 40em) {
+	.callout {
+		display: none;
+	}
+}
+@media (max-width: 70em) {
+	.callout2 {
+		display: none;
+	}
+}
+@media (max-width: 40em) {
+	.WeddingsBackground {
+		display: none;
+	}
+}
+@media (max-width: 40em) {
+	.callout3 {
+		display: none;
+	}
+}
+
+@media (max-width: 40em) {
+.weddingfooter{display: none
+    
+}}
+
+
+@media (min-width:250px) and (max-width:380px) {
+    .videoclass2weddings {
+            min-height: 120px;
+    }
+}
+/* ----------- Keeps content away from images------------------*/
+.informationsectionweddings {
+    position: fixed;
+    bottom: 60px;
+    padding-right: 20px;
+}
+
+@media (max-width: 40em) {
+.informationsectionweddings {
+   position: relative; 
+    bottom: 0px;
+    z-index: 3;
+   }}
+
+
