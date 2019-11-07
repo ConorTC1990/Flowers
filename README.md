@@ -70,12 +70,14 @@ I will look at cleaning up my code more often as I found that going through the 
  
  A subscription service delivering fresh flowers weekly to homes could also be implemented.
  
+ Likewise classes could be built using calendly.
+ 
                                  Bugs
                                  
 1. On Transition the video size does not scale correctly leavig somewhat of a whitespace on the index.html page.
 2. The social media links in the footer on hover the colour background transitionsto white.
 3. Background picture scaling isn't quite perfect and doesn't move in line with screen as size changes.
-4. Content drops below footer especially in smaller screens when 
+4. Ideally list on wreaths would work with the background picture, but as they're memorial wreaths I decided against utilising a carousel for the text function.
 5. 
                                 
                                     Credits
