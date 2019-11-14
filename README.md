@@ -11,12 +11,24 @@ I built this as an initial model in order to enable my mother to bring her side-
 I initially envisaged a wireframe model utilising an array of buttons pinned under a Navbar.
 Upon reflection and testing using smaller browser modes I found that actually a collapsing Navbar had a more pleasant UX.
 
-With regards to UX I decided to utilise a video as my desktop background for the index.html page. 
+With regards to UX I decided to utilise a video as my desktop background for the index.html page, however upn reflection and discussion with my mentor I went with a carousel format.
+
 While there are concerns about this from a UX perspective I general I stuck with it as the soft transitions, looked pleasant and would help sell the product.
 
-                                     Backgrounds
+                                Deployment
+                                
+This site is hosted utilising Github pages deployed from the master branch, you can clone this repository directly into the editor of your choice by pasting git clone https://conortc1990.github.io/Flowers/                       
+                                
+                                  A demo is available at  https://conortc1990.github.io/Flowers/
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                    Wireframes
                                      
-I opted for a magenta background as it is a warm friendly colour designed to appeal to the target market. 
+I opted for an azure background as it is a warm friendly but neutral colour designed to appeal to the target market. 
 
 Photos are considered placeholders as they aren't optimal quality as yet.
 
@@ -24,7 +36,9 @@ Likewise I went for a consistent background image for mobile devices as they loo
 
 It can be considered as functional but on go-live better pictures will be made available.
 
-In a sprint stage it would be appropriate to go to market with it as it is functional at present.
+
+
+
 
                                     Issues
                                     
@@ -62,7 +76,14 @@ I was having issues getting background images to work in CSS, I ended up creatin
 In future I will look at designing each better and planning my design to be consistent throughout. I created a lot of very similar classes on all 4 pages which was not my initial intention.
  
 I will look at cleaning up my code more often as I found that going through the validator at the end stages of the project actually helped with soving some of my issues which in hindsight I had just been compounding.                                
+                                
+                         
+                                
+                                
+                                
                                 Future enhancements
+                                
+                                
                                 
  I would add an online store for click and collect.
 
@@ -70,15 +91,23 @@ I will look at cleaning up my code more often as I found that going through the 
  
  A subscription service delivering fresh flowers weekly to homes could also be implemented.
  
- Likewise classes could be built using calendly.
+ Likewise gardening classes could be built using calendly.
  
+ 
+ 
+                             Testing
+                             
+  Testing was completed by me and the ultimate end user my mother who is considering utilising the website as part of a business.                           
+     Links for indicative pricing and the Privacy Policy are targeted using a 'target="_blank"'                          
+                                 
                                  Bugs
                                  
 1. On Transition the video size does not scale correctly leavig somewhat of a whitespace on the index.html page.
 2. The social media links in the footer on hover the colour background transitionsto white.
 3. Background picture scaling isn't quite perfect and doesn't move in line with screen as size changes.
 4. Ideally list on wreaths would work with the background picture, but as they're memorial wreaths I decided against utilising a carousel for the text function.
-5. 
+5. The contactform isn't connected as yet but will be on go live.
+
                                 
                                     Credits
 
@@ -87,4 +116,13 @@ I will look at cleaning up my code more often as I found that going through the 
 3. For the indicative price list I replicated the code from the course notes also.
 4. I copied the form from https://www.sanwebe.com/2014/08/css-html-forms-designs
  
+
+Photos were taken by my mother and edited by me in windows in order for text to be more visible.
+
+
+
+
+
+
+
                                 
